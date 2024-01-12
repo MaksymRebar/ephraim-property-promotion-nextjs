@@ -14,9 +14,10 @@ export default function Zigzag() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div>
-            <h1 className="h2 mb-4">One product, unlimited solutions</h1>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Modern features, Classic styles</div>
+            <h1 className="h2 mb-4">The Palace that makes you classily</h1>
+            <p className="text-xl text-gray-400">This home has been recently renovated with upgraded amenities throughout the property and has a fantastic layout.
+Home is located in a great neighbor with a nice private backyard.</p>
           </div>
 
           {/* Items */}
@@ -139,7 +140,7 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Classic and Gentle</div>
                   <h3 className="h3 mb-3">🌟 Cozy Elegance: Unwind in Our Stylish Living Room! 🌟</h3>
                   <p className="text-xl text-gray-400 mb-4">Bask in the soft glow of natural light streaming through large windows, enhancing the warmth and vibrancy of the space.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
