@@ -5,7 +5,9 @@ import FeatImage02 from '@/public/images/IMG_0442.jpg'
 import FeatImage03 from '@/public/images/IMG_0437.jpg'
 import FeatImage04 from '@/public/images/IMG_0434.jpg'
 import FeatImage05 from '@/public/images/IMG_0440.jpg'
-
+import FeatImage06 from '@/public/images/IMG_0441.jpg'
+import FeatImage07 from '@/public/images/IMG_0439.jpg'
+import FeatImage08 from '@/public/images/IMG_0445.jpg'
 export default function Zigzag() {
   return (
     <section>
@@ -69,7 +71,7 @@ Home is located in a great neighbor with a nice private backyard.</p>
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">Clean environment. Comfort use</div>
-                  <h3 className="h3 mb-3">🚽 Elegant and Pristine Toilet Oasis</h3>
+                  <h3 className="h3 mb-3">🚿 Elegant and Pristine Toilet Oasis</h3>
                   <p className="text-xl text-gray-400 mb-4">Our commitment to providing a comfortable and inviting space extends to every corner of our home, including our thoughtfully designed toilet area. Step into a clean and stylish sanctuary that ensures both hygiene and comfort during your stay.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
@@ -168,7 +170,7 @@ Home is located in a great neighbor with a nice private backyard.</p>
             </div>
             {/* */}
 
-            {/**/}
+            {/* 5th*/}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
@@ -205,6 +207,118 @@ Home is located in a great neighbor with a nice private backyard.</p>
             </div>
             {/**/}
             
+            {/* 6th */}
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage06} width={540} height={405} alt="Features 02" />
+              </div>
+              {/* Content */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
+                <div className="md:pl-4 lg:pl-12 xl:pl-16">
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Clean & Simple</div>
+                  <h3 className="h3 mb-3">🚽 Another one more!</h3>
+                  <p className="text-xl text-gray-400 mb-4">One more bathroom is so small but area-effective and all-in-one prepared.</p>
+                  <ul className="text-lg text-gray-400 -mb-2">
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Light...</span>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Small but everything is </span>
+                    </li>
+                    <li className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Very effective and comfort</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {/* */}
+
+            {/* 7th*/}
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage07} width={540} height={405} alt="Features 03" />
+              </div>
+              {/* Content */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
+                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Happy and comfort sleep</div>
+                  <h3 className="h3 mb-3">🛌For beautiful dreams</h3>
+                  <p className="text-xl text-gray-400 mb-4">Storages embeded in the walls save space. Everybody is different but they all sleep and they all dream.</p>
+                  <ul className="text-lg text-gray-400 -mb-2">
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Space Saving Storage</span>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Even with only Visuals, People can feel quiet.</span>
+                    </li>
+                    {/* <li className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Light wall colors provide </span>
+                    </li> */}
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {/**/}
+
+            {/* 8th */}
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage08} width={540} height={405} alt="Features 02" />
+              </div>
+              {/* Content */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
+                <div className="md:pl-4 lg:pl-12 xl:pl-16">
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Green Plus Wild</div>
+                  <h3 className="h3 mb-3">🌿 Enchanting Backyard Haven: Outdoor Bliss at Your Doorstep</h3>
+                  <p className="text-xl text-gray-400 mb-4">Escape to your own private oasis with our captivating backyard, a haven designed for relaxation, entertainment, and the joy of outdoor living. Discover the perfect balance of natural beauty and thoughtful design that awaits just beyond your door.
+                    Party on the backyard is the another best.
+                  </p>
+                  <ul className="text-lg text-gray-400 -mb-2">
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Large sized Balcony</span>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Trees and Grass</span>
+                    </li>
+                    <li className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Pets friendly</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {/* */}
 
           </div>
 
