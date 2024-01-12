@@ -38,18 +38,21 @@ export default function Hero() {
             </div>
           </div>
 
-          <ModalVideo
+          {/* <ModalVideo
             thumb={FirstImage}
             thumbWidth={1024}
             thumbHeight={576}
             thumbAlt="Modal video thumbnail"
             video="/videos/video.mp4"
             videoWidth={1920}
-            videoHeight={1080} />
+            videoHeight={1080} /> */}
 
-          {/* <img
-            src={FirstImage}
-          /> */}
+          <img
+            src={'/images/IMG_0436.jpg'}
+            style={{
+              borderRadius:"20px"
+            }}
+          />
 
         </div>
 
