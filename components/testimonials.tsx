@@ -13,7 +13,7 @@ export default function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Saying about our house - <span className='text-purple-600' >Paladice</span></h2>
-            <p className="text-xl text-gray-400">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.</p>
+            <p className="text-xl text-gray-400">Thanks to <span className='text-purple-600' >Paladice</span></p>
           </div>
 
           {/* Testimonials */}
@@ -95,7 +95,7 @@ export default function Testimonials() {
               </div>
               <blockquote className="text-lg text-gray-400 grow">It was very good. Clean and beautiful. I felt I am in the world of fantasy.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Past Borrower</a>
+                <cite className="text-gray-200 not-italic">Steven Beil</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Past Borrower</a>
               </div>
             </div>
 
@@ -111,7 +111,7 @@ export default function Testimonials() {
               </div>
               <blockquote className="text-lg text-gray-400 grow">It was very cheap but the home is the best. Especially I loved kitchen.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Alexander Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                <cite className="text-gray-200 not-italic">Alexander Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Regular Borrower</a>
               </div>
             </div>
 
