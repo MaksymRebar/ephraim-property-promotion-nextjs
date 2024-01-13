@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'Paladice - Home for Rent',
+  description: 'There is a waiting home for you at Windsong Ln, Bedford, TX 76021',
 }
 
 import Hero from '@/components/hero'
